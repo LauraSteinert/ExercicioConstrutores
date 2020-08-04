@@ -1,0 +1,23 @@
+/* Defina uma classe Pessoa cujos objetos representam uma pessoa contendo as seguintes informações: 
+nome (String), sexo (char), número do documento de identidade (String) e data de nascimento da pessoa (dia, mês e ano, todos int). 
+Defina um construtor que receba como parâmetros esses dados, abastecendo os atributos de uma pessoa. */
+
+class Pessoa{
+
+	String nome;
+	char sexo;
+	String identidade;
+	int dia;
+	int mes;
+	int ano;
+
+	Pessoa (String nome, char sexo, String identidade,
+		int dia, int mes, int ano){
+		this.nome = nome;
+		this.sexo = sexo;
+		this.identidade = identidade;
+		this.dia = dia;
+		this.mes = mes;
+		this.ano = ano;
+	}
+}
